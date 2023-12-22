@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Site Redirector",
+  "version": "1.0",
+  "description": "Redirects a specific site to another site.",
+  
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
